@@ -4,7 +4,7 @@ import {
   Text
 } from 'react-native';
 import { connect } from 'react-redux';
-import { updateAuthor } from './actions/author';
+import { updateAuthor } from './redux/modules/author';
 
 class App extends Component {
   componentWillMount() {
